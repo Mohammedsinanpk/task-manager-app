@@ -10,6 +10,7 @@ Use Browser Developer Tools (Chrome DevTools, Firefox Profiler) – Check networ
 ### If you had more time, what additional features or improvements would you consider adding to the task management application?
 
 Given more time, I would enhance the application with the following features:
+
 Drag-and-Drop Task Reordering – Allow users to rearrange tasks using libraries like react-beautiful-dnd.
 Recurring Tasks – Add the ability to set tasks to repeat daily, weekly, or monthly.
 Notifications & Reminders – Send browser or email notifications for upcoming and overdue tasks.
