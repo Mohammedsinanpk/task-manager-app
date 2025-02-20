@@ -23,18 +23,8 @@ Use Browser Developer Tools (Chrome DevTools, Firefox Profiler) – Check networ
 
 Given more time, I would enhance the application with the following features:
 
-Firebase Backend Integration – Replace localStorage with Firestore to enable multi-device sync and user authentication.
-
 Drag-and-Drop Task Reordering – Allow users to rearrange tasks using libraries like react-beautiful-dnd.
 
 Recurring Tasks – Add the ability to set tasks to repeat daily, weekly, or monthly.
 
 Notifications & Reminders – Send browser or email notifications for upcoming and overdue tasks.
-
-Collaboration & Sharing – Enable multiple users to collaborate on a shared task list.
-
-Theming & Dark Mode – Provide users with customizable themes and a dark mode option.
-
-Mobile Optimization – Ensure a fully responsive and mobile-friendly UI.
-
-These improvements would make the task manager more functional, user-friendly, and scalable for real-world usage.
