@@ -1,0 +1,176 @@
+/* src/components/TaskList.css */
+.task-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sort-options {
+    margin-bottom: 15px;
+    text-align: right;
+  }
+  
+  .sort-options label {
+    margin-right: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .task-table th,
+  .task-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .task-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .task-row {
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .task-row:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .priority-label {
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: #fff;
+  }
+  
+  .priority-label.high {
+    background-color: #e74c3c;
+  }
+  
+  .priority-label.medium {
+    background-color: #f39c12;
+  }
+  
+  .priority-label.low {
+    background-color: #27ae60;
+  }
+  
+  .description-row td {
+    background-color: #fcfcfc;
+    font-style: italic;
+    color: #555;
+  }
+  
+  .task-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-description {
+    margin-bottom: 10px;
+  }
+  
+  .expanded-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background: #e74c3c;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background: #c0392b;
+  }
+  
+  /* Edit Form Styles */
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .edit-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-form .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edit-form .form-group input,
+  .edit-form .form-group select,
+  .edit-form .form-group textarea {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .save-button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background: #218838;
+  }
+  
+  .cancel-button {
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cancel-button:hover {
+    background: #5a6268;
+  }
+  
+  .no-tasks-message {
+    text-align: center;
+    color: #777;
+    font-size: 1.1rem;
+  }
+  

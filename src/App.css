@@ -1,0 +1,20 @@
+/* src/App.css */
+
+/* ...existing styles... */
+
+/* Button to open the modal */
+.open-modal-button {
+  background: #28a745;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 20px auto;
+  transition: background 0.3s ease;
+}
+
+.open-modal-button:hover {
+  background: #218838;
+}

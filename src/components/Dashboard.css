@@ -1,0 +1,215 @@
+/* Hide Actions column initially */
+.task-row .actions {
+    display: none;
+  }
+  
+  /* Show actions only when expanded */
+  .expanded .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Flexbox layout for description & actions */
+  .task-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .task-details p {
+    flex: 1;
+    margin: 0;
+    padding-right: 15px;
+  }
+  
+  /* Buttons inside actions */
+  .task-details .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  /* Edit Task Form */
+.edit-task-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 10px auto;
+  }
+  
+  .edit-task-form input,
+  .edit-task-form select,
+  .edit-task-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .edit-task-form textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  .edit-task-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .edit-task-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-task-form .cancel-button {
+    background-color: #dc3545;
+  }
+  
+  .edit-task-form .cancel-button:hover {
+    background-color: #a71d2a;
+  }
+  /* src/components/Dashboard.css */
+.dashboard {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sort-options {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.sort-options label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.dashboard-section {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  color: #333;
+}
+
+.dashboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dashboard-table th,
+.dashboard-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.dashboard-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.task-row {
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.task-row:hover {
+  background: #f9f9f9;
+}
+
+.priority-label {
+  padding: 3px 8px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.priority-label.high {
+  background-color: #e74c3c;
+}
+
+.priority-label.medium {
+  background-color: #f39c12;
+}
+
+.priority-label.low {
+  background-color: #27ae60;
+}
+
+.description-row td {
+  background: #fefefe;
+  font-style: italic;
+  color: #555;
+}
+
+.dashboard-table button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.dashboard-table button:first-child {
+  background: #28a745;
+  color: #fff;
+}
+
+.dashboard-table button:first-child:hover {
+  background: #218838;
+}
+
+.dashboard-table button:last-child {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.dashboard-table button:last-child:hover {
+  background: #c0392b;
+}
+.top-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.top-controls input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.top-controls select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+  
